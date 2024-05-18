@@ -3,7 +3,7 @@ title: "Exploratory Analysis"
 output: html_document
 ---
 
-## Project title
+## Mapping Civic Engagement: Voter Registration and Political Beliefs
 
 Give your project a concise, interesting title that summarizes the entirety of your project
 
@@ -93,7 +93,8 @@ Throughout the course of this challenge, there may be a variety of challenges an
 
 ### Summary Information
 
-Write a summary paragraph of findings that includes the 5 values calculated from your summary information R script
+Our analysis of the May 2024 Washington City Registration Demographics revealed that the county with the most registered male and female voters was King County. There were 597274 registered female voters and 576088 registered male voters. Being the most populated county in WA, King County also had the most unknown/other registered voters at 33659 voters. Wahkiakum County had the lowest number of female voters at 225, and male voters at 192. However, Garfield County had the lowest number of unknown registered voters at 12.
+
 
 ### Table
 ```{r, echo = FALSE, code = readLines("Table.R")}
