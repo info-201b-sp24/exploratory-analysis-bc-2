@@ -121,6 +121,7 @@ Describe why you chose this chart and what information it reveals
 
 ### Chart 3
 
-Include a chart
+```{r, echo = FALSE, code = readLines("HenryChart.R")} 
+```
 
-Describe why you chose this chart and what information it reveals
+I chose to make a scatter plot showing the poulation of a county and the percentage of people in it that identify their gender as 'other'. In politics the opinions on many topics can vary largely between more rural and more urban areas. I created this graph to see if ideas around gender identity vary between the more and less populated areas of Washington, and therefore impact the percentage of people who don't conform to traditional gender identities. I chose a scatter plot because this type of graph most clearly shows the relationship between the two variables, and the overall trend. The data shows very little relation between the two variables, but there is a very slight increase in percentage as the population increases.
