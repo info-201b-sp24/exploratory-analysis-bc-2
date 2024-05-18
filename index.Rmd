@@ -28,6 +28,13 @@ Keywords: Washington State, Voter Demographics, Counties, Cities
 
 ### Introduction  
 
+Which city has the highest voter turnout?
+
+Which gender has a higher voter turnout?
+
+How might Washington’s demographics be helpful in predicting demographics in the U.S?
+
+The topic of civic engagement has many large implications and important questions. The data can give insight into trends in public opinion. One important question is simply how many people register in each city. Cities in Washington and the US in general, have vastly differing populations and political views. By understanding the number of people registering to vote in different cities, you can observe which areas and groups of people feel more inclined to vote. Another important question is how the gender of voter turnout varies across counties. Learning what areas of the state show trends of a certain gender voting more could help to identify what factors are in play. This trend could raise many questions about how Washington fits into national trends. It could also explain changes in the state itself. The last important question raised by this data is how Washington compares to other states in voter turnout and political beliefs. Understanding voter trends is an incredibly important aspect of a democratic system. Knowledge of these trends can reveal areas of unrest and anger among the people. Voter turnout and political affiliation can vary greatly with the changing of topics in public discussion. By analyzing and interpreting voter data, a greater understanding of public belief and social values can be achieved.
 
 
 ### Related Work  
@@ -42,14 +49,39 @@ Seattle, FOX 13. “How Every WA County Voted in the 2024 Presidential Primary.�
 
 ### The Dataset
 
-Where did you find the data? Please include a link to the data source  
-Who collected the data?  
+Where did you find the data? Please include a link to the data source
+
+Dataset: [City Registration Table](https://www.sos.wa.gov/elections/data-research/election-data-and-maps/reports-data-and-statistics/voter-demographics)
+
+Who collected the data?
+
+Washington Secretary of State
+
 How was the data collected or generated?  
-Why was the data collected?  
+
+The Secretary of State records data when people register to vote.
+
+Why was the data collected?
+
+The voter demographics are collected to ensure fair representation, shape policies, strategize elections, and study voting behavior.
+
 How many observations (rows) are in your data?  
+
+There are 328 rows
+
 How many features (columns) are in the data?  
-What, if any, ethical questions or questions of power do you need to consider when working with this data?  
-What are possible limitations or problems with this data?   (at least 200 words)
+
+There are 5 features
+
+What, if any, ethical questions or questions of power do you need to consider when working with this data?
+
+Voter registration data contains sensitive information, such as names, addresses, and voting history. It is essential to handle this data with care and ensure that individuals' privacy is protected. Furthermore, we should be aware of potential biases in the data, such as underrepresentation of certain demographic groups, and take steps to mitigate these biases in our analysis.
+
+What are possible limitations or problems with this data?
+
+For the most part, the data is truthful and accurate since it is recorded by the government. However, voter demographics are input by people, so there could be inaccuracies due to human error. For example, voters might accidentally fill in the wrong bubble or other personal information. Also, the data may not fully reflect the complexity of voter demographics since people may not fit exactly into the categories provided, or simply opt out of submitting some information. Voter demographics are usually updated every year or in other specific intervals, and may be inaccurate if voters are not regularly updating their government registrations, so the data would become outdated quickly. This could especially be the case for counties and cities where population mobility is high, or in election years in which voter registration becomes intensified. Some of the registered voters could also be inactive because they moved away or just disengaged from the electoral process, so their data would lead to inaccuracies in predicting voter preference. One last concern could be data manipulation or tampering, where voter registration systems or people try to manipulate the demographics for political benefit. Though this is unlikely as government information has higher levels of security, it is still a possibility that could affect the data.
+
+
 
 ### Implications
 
@@ -69,6 +101,8 @@ Write a summary paragraph of findings that includes the 5 values calculated from
 
 
 Include a table of aggregate information
+
+
 
 Describe why you included the table and what information it reveals
 
