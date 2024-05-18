@@ -1,0 +1,29 @@
+library(readxl)
+library(dplyr)
+library(ggplot2)
+voter_table <- read.csv("county demographics.csv")
+
+#voter_table <- read_excel("VoterTable.xlsx", 
+                         #sheet = "City Registration Table")
+
+filtered_data <- voter_table %>%
+  filter(!is.na(County) & County != "")
+filtered_data <- filtered_data[-nrow(filtered_data), ]
+
+filtered_data <- filtered_data %>%
+  mutate(Ratio = Other / Grand.Total)
+
+total_pop_county <- filtered_data$`Grand Total`
+#male_pop_county <- filtered_data$Male
+
+
+ggplot(filtered_data) +
+  geom_point(mapping = aes(
+    x = Grand.Total, 
+    y = Ratio
+  )) +
+  labs(
+    title ="Total County Population vs Population Identifying as 'Other'", 
+    x = "County Population",
+    y = "'Other' Population"
+  )
