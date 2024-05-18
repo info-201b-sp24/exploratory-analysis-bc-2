@@ -73,14 +73,11 @@ Include a table of aggregate information
 Describe why you included the table and what information it reveals
 
 ### Chart 1
+```{r, echo = FALSE, code = readLines("JonnyChart.R")} 
+```
 
-Include a chart
-
-Describe why you chose this chart and what information it reveals
-
-Here's an example of how to run an R script inside an RMarkdown file:
-
-
+The reason I chose a Bar graph to represent this subsection of the data is that it helps put into perspective the disparities between genders that chose to vote(Female, Male, Other), as well as the Grand Total # of people that voted. Furthermore, given that my data is categorical, a bar graph helps facilitate comparisons between different groups.
+Within this graph each bar represents a gender with the final bar showing the grand total, and the height of the bar represents the value, or the number of voters, making it easy to compare values at a glance.
 
 ### Chart 2
 
