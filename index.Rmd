@@ -9,28 +9,36 @@ Give your project a concise, interesting title that summarizes the entirety of y
 
 ### Authors
 
-Names of your team members
+Matthew Lalangan (lalangan@uw.edu)
+Savanna Olsen (savannaq@uw.edu)
+Henry Wiseman (hwise1@uw.edu)
+Jonny Sung (jsung5@uw.edu)
 
 ### Date
 
-Winter 2022
+Spring 2024
 
 ### Abstract
 
-No more than three sentences that summarize your project. Focus on the very most important aspects. For example: (1) "Our main question is .... This question is important because .... To address the question, we will ...." (2) "We are concerned with ..., because .... To address this concern, we plan to ...." (3) "Consider that .... This is important because .... Accordingly, we plan to ...."
+Our main question is how political views and voter registration affect civic participation. This is a crucial question since knowing these things provides insight on political and societal developments. In order to answer this issue, we will examine voter registration statistics from various cities, monitor the party shift in Washington over time, and examine voter turnout and political affiliations between states in order to uncover more general trends in civic engagement and public opinion.
 
 ### Keywords
 
-3-5 keywords that summarize your project.
-(e.g., "Keywords: human physiology; bicycle exercise; Gen Z; times-series data")
+Keywords: Washington State, Voter Demographics, Counties, Cities
 
 ### Introduction  
 
-Briefly introduce your project.  Include 3-5 research questions. What motivates the questions? Why are they important? (at least 200 words)
+
 
 ### Related Work  
 
-Describe your topic and related work in this space. You must include 3 citations to related work (URLs to similar work, high quality articles from the popular press, research papers, etc. ) Please use a standard citation style of your choice. (at least 200 words)
+The topic of civic engagement and voter behavior can be crucial in understanding the dynamics of democracy and public opinion. Scholars and researchers have examined various aspects of this subject, utilizing data to reveal trends, patterns, and potential implications. It is important to understand voter registration and turnout in order to evaluate the level of civic engagement in a community or nation. Details on voter behavior can be gained from reports like the Washington Secretary of State's "General Election Turnout" as well as data from state election boards and the U.S. Census Bureau. For example, recent reports from the Washington Secretary of State indicate shifts in voter turnout, with some elections experiencing modern lows in participation rates, as highlighted in Alison Saldanha's article in The Seattle Times. Another important part is examining how political opinions and partisanship have changed throughout time. Opinion surveys, comparative analyses between regions, and ongoing studies are frequently used by researchers to monitor shifts in voter preferences. FOX13 News reported on recent statistics from the 2024 Presidential Primary in Washington, which provides insight into regional differences in ideologies and party support and offers data on how different counties voted. Related work in this space includes academic research articles, government reports like those published by the Washington Secretary of State, and media coverage from outlets such as The Seattle Times and FOX13 News. These resources add to the continuing discussion about voter behavior and civic involvement, which deepens our understanding of how democracies work and the opportunities and challenges they bring.
+
+“General Election Turnout.” General Election Turnout | WA Secretary of State, www.sos.wa.gov/elections/data-research/election-data-and-maps/reports-data-and-statistics/general-election-turnout. Accessed 1 May 2024.
+
+Saldanha, Alison. “Did You Vote? A Lot of Your Neighbors Didn’t.” The Seattle Times, The Seattle Times Company, 28 Nov. 2023, www.seattletimes.com/seattle-news/voter-turnout-hits-modern-low-in-wa/.
+
+Seattle, FOX 13. “How Every WA County Voted in the 2024 Presidential Primary.” FOX13 News | Seattle & Western Washington | Formerly Q13 News, FOX13 News | Seattle & Western Washington | Formerly Q13 News, 13 Mar. 2024, www.fox13seattle.com/election/wa-primary-results-county.
 
 ### The Dataset
 
@@ -45,10 +53,11 @@ What are possible limitations or problems with this data?   (at least 200 words)
 
 ### Implications
 
-Assuming you answer your research questions, briefly describe the expected or possible implications for technologists, designers, and policymakers. (at least 150 words)
+Possible implications for technologists include the development of better systems of data collection, reducing the level of human error, including measures that detect and prevent data manipulation and tampering, and systems that update voter demographics in real time to reduce outdated information. User-friendly systems with a good design and proper instructions could go a long way in minimizing errors. Systems to keep real-time records of voter information could also result in consistently reliable data. The collaboration between technologists and designers is going to be very important to identify ways to locate and eliminate inactive voters and increase the number of citizens into active voter participation in the electoral process. This could be troublesome for policymakers to devise effective strategies of changing voters' mind in case the demographics happen to be wrong. They might have to rely on errors on the collected data or, alternatively, direct more energy to ensuring that the data collected is correct and safe. Again, the implications with government recorded data are very few apart from human recorded error. Still, technologists, designers, and policymakers can work up innovations to tackle the issue.
 
 ### Limitations & Challenges
-What challenges or limitations might you need to address with your project idea more broadly? Briefly discuss. (at least 150 words)
+
+Throughout the course of this challenge, there may be a variety of challenges and limitations that arise. One limitation would be that access to voter registration and election result data may be limited or restricted due to data protection regulations or simply due to human error. Missing data, especially in demographic variables, can pose challenges when analyzing voter demographics. Thus imputing missing values or handling them appropriately is important to avoid bias in the analysis. One challenge that may need to be addressed would be the temporal nature of the project. Conducting a temporal analysis to understand how voter demographics and participation have changed over time requires careful consideration of data from multiple election cycles(eg: do most areas stay republican or how have they changed?). Ensuring that the data is consistent across different time periods is essential for meaningful comparisons. As another challenge, we need to ensure that our data is used responsibly and in accordance with ethical standards. Given that access to voter registration and election result data raises certain considerations, we need to consider the ethics of our choices and analysis when accessing and using data.
 
 ### Summary Information
 
