@@ -118,7 +118,7 @@ Within this graph each bar represents a gender with the final bar showing the gr
 ```{r, echo = FALSE, code = readLines("MatthewChart.R")} 
 ```
 
-Describe why you chose this chart and what information it reveals
+I chose to make a voting distribution map showing the total votes of all genders in different counties in Washington. The reason why I chose to do this is because I think it's important to show how much of a role region plays in terms of voting population and where majority of votes are coming from. As you can see from the map, King county hosts majority of the population that votes, and the counties surrounding that region are also contributing to a pretty high vote count as well. Another reason why I chose a map chart is because it makes it easier to identify where we could focus on more voting participation and understand how much of an impact a region can sway an election.
 
 ### Chart 3
 
