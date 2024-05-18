@@ -115,7 +115,8 @@ Within this graph each bar represents a gender with the final bar showing the gr
 
 ### Chart 2
 
-Include a chart
+```{r, echo = FALSE, code = readLines("MatthewChart.R")} 
+```
 
 Describe why you chose this chart and what information it reveals
 
