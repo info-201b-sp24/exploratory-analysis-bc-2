@@ -3,15 +3,14 @@ title: "Exploratory Analysis"
 output: html_document
 ---
 
-## Project title
+## Voting Participation
 
-Give your project a concise, interesting title that summarizes the entirety of your project
 
 ### Authors
 
-Matthew Lalangan (lalangan@uw.edu)
-Savanna Olsen (savannaq@uw.edu)
-Henry Wiseman (hwise1@uw.edu)
+Matthew Lalangan (lalangan@uw.edu)  
+Savanna Olsen (savannaq@uw.edu)  
+Henry Wiseman (hwise1@uw.edu)  
 Jonny Sung (jsung5@uw.edu)
 
 ### Date
@@ -51,35 +50,35 @@ Seattle, FOX 13. â€œHow Every WA County Voted in the 2024 Presidential Primary.â
 
 Where did you find the data? Please include a link to the data source
 
-Dataset: [City Registration Table](https://www.sos.wa.gov/elections/data-research/election-data-and-maps/reports-data-and-statistics/voter-demographics)
+>Dataset: [City Registration Table](https://www.sos.wa.gov/elections/data-research/election-data-and-maps/reports-data-and-statistics/voter-demographics)
 
 Who collected the data?
 
-Washington Secretary of State
+>Washington Secretary of State
 
 How was the data collected or generated?  
 
-The Secretary of State records data when people register to vote.
+>The Secretary of State records data when people register to vote.
 
 Why was the data collected?
 
-The voter demographics are collected to ensure fair representation, shape policies, strategize elections, and study voting behavior.
+>The voter demographics are collected to ensure fair representation, shape policies, strategize elections, and study voting behavior.
 
 How many observations (rows) are in your data?  
 
-There are 328 rows
+>There are 328 rows
 
 How many features (columns) are in the data?  
 
-There are 5 features
+>There are 5 features
 
 What, if any, ethical questions or questions of power do you need to consider when working with this data?
 
-Voter registration data contains sensitive information, such as names, addresses, and voting history. It is essential to handle this data with care and ensure that individuals' privacy is protected. Furthermore, we should be aware of potential biases in the data, such as underrepresentation of certain demographic groups, and take steps to mitigate these biases in our analysis.
+>Voter registration data contains sensitive information, such as names, addresses, and voting history. It is essential to handle this data with care and ensure that individuals' privacy is protected. Furthermore, we should be aware of potential biases in the data, such as underrepresentation of certain demographic groups, and take steps to mitigate these biases in our analysis.
 
 What are possible limitations or problems with this data?
 
-For the most part, the data is truthful and accurate since it is recorded by the government. However, voter demographics are input by people, so there could be inaccuracies due to human error. For example, voters might accidentally fill in the wrong bubble or other personal information. Also, the data may not fully reflect the complexity of voter demographics since people may not fit exactly into the categories provided, or simply opt out of submitting some information. Voter demographics are usually updated every year or in other specific intervals, and may be inaccurate if voters are not regularly updating their government registrations, so the data would become outdated quickly. This could especially be the case for counties and cities where population mobility is high, or in election years in which voter registration becomes intensified. Some of the registered voters could also be inactive because they moved away or just disengaged from the electoral process, so their data would lead to inaccuracies in predicting voter preference. One last concern could be data manipulation or tampering, where voter registration systems or people try to manipulate the demographics for political benefit. Though this is unlikely as government information has higher levels of security, it is still a possibility that could affect the data.
+>For the most part, the data is truthful and accurate since it is recorded by the government. However, voter demographics are input by people, so there could be inaccuracies due to human error. For example, voters might accidentally fill in the wrong bubble or other personal information. Also, the data may not fully reflect the complexity of voter demographics since people may not fit exactly into the categories provided, or simply opt out of submitting some information. Voter demographics are usually updated every year or in other specific intervals, and may be inaccurate if voters are not regularly updating their government registrations, so the data would become outdated quickly. This could especially be the case for counties and cities where population mobility is high, or in election years in which voter registration becomes intensified. Some of the registered voters could also be inactive because they moved away or just disengaged from the electoral process, so their data would lead to inaccuracies in predicting voter preference. One last concern could be data manipulation or tampering, where voter registration systems or people try to manipulate the demographics for political benefit. Though this is unlikely as government information has higher levels of security, it is still a possibility that could affect the data.
 
 
 
