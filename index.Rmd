@@ -91,20 +91,18 @@ Possible implications for technologists include the development of better system
 
 Throughout the course of this challenge, there may be a variety of challenges and limitations that arise. One limitation would be that access to voter registration and election result data may be limited or restricted due to data protection regulations or simply due to human error. Missing data, especially in demographic variables, can pose challenges when analyzing voter demographics. Thus imputing missing values or handling them appropriately is important to avoid bias in the analysis. One challenge that may need to be addressed would be the temporal nature of the project. Conducting a temporal analysis to understand how voter demographics and participation have changed over time requires careful consideration of data from multiple election cycles(eg: do most areas stay republican or how have they changed?). Ensuring that the data is consistent across different time periods is essential for meaningful comparisons. As another challenge, we need to ensure that our data is used responsibly and in accordance with ethical standards. Given that access to voter registration and election result data raises certain considerations, we need to consider the ethics of our choices and analysis when accessing and using data.
 
+
 ### Summary Information
 
-Write a summary paragraph of findings that includes the 5 values calculated from your summary information R script
+Our analysis of the May 2024 Washington City Registration Demographics revealed that the county with the most registered male and female voters was King County. There were 597274 registered female voters and 576088 registered male voters. Being the most populated county in WA, King County also had the most unknown/other registered voters at 33659 voters. Wahkiakum County had the lowest number of female voters at 225, and male voters at 192. However, Garfield County had the lowest number of unknown registered voters at 12.
 
 ### Table
+
 ```{r, echo = FALSE, code = readLines("Table.R")}
 ```
 
 
-Include a table of aggregate information
 
-
-
-Describe why you included the table and what information it reveals
 
 ### Chart 1
 ```{r, echo = FALSE, code = readLines("JonnyChart.R")} 
