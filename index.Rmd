@@ -55,6 +55,12 @@ What challenges or limitations might you need to address with your project idea 
 Write a summary paragraph of findings that includes the 5 values calculated from your summary information R script
 
 ### Table
+```{r, echo=FALSE}
+library(knitr)
+voterDemographics <- read.csv("county demographics.csv")
+kable(voterDemographics)
+```
+
 
 Include a table of aggregate information
 
@@ -67,9 +73,6 @@ Include a chart
 Describe why you chose this chart and what information it reveals
 
 Here's an example of how to run an R script inside an RMarkdown file:
-
-``````{r, echo = FALSE, code = readLines("chart1_example.R")}
-```
 
 ### Chart 2
 
